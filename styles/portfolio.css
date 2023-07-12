@@ -153,7 +153,7 @@ main section {
     color: #757575;
 }
 
-/*Resume Section Styles8*/
+/*Resume Section Styles*/
 
 .resumecolumntitle {
     color: #474747;
@@ -190,4 +190,31 @@ main section {
 .downloadcv{
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer section styles*/
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px ;
+    margin-top: 100px;
+}
+
+.footercolumn{
+    width: 50%;
+}
+
+.social a{
+    margin-right: 25px;
+}
+
+.contact input[type='text'], .contact input[type='email'], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    width: 100%;
 }
