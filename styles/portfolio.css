@@ -5,9 +5,10 @@ body {
 }
 
 .orangetext {
-    color: #FD6E0A;}
+    color: #FD6E0A;
+}
 
-.button1{
+.button1 {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -15,7 +16,20 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
 
+.sectitle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.secdesc {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /*nav related styles*/
@@ -33,7 +47,7 @@ nav {
 }
 
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -43,22 +57,72 @@ nav li {
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related styles */
 
-.header{
-    background-color:#FFF8F3 ;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
-.banner .propic{
+/* banner related styles */
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .propic {
     height: 650px;
     width: 550px;
+}
+
+.bannergreet {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.bannertitle {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bannerdesc {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.bannercont {
+    max-width: 550px;
+}
+
+/* main section styles*/
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* about section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
+}
+.aboutinfocontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutinfo{
+    text-align: center;
 }
